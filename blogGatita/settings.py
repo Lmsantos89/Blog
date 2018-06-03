@@ -25,7 +25,9 @@ SECRET_KEY = 'bmjd&45#*pp+09h)ptd9yg&_6@940rea$92)#*=o5gc1!w*u&z'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS =  []
+ALLOWED_HOSTS =  [
+    'blogzinga.herokuapp.com'
+]
 
 
 # Application definition
