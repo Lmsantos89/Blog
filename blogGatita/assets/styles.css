@@ -1,0 +1,177 @@
+body{
+  background-color: #0f121f;
+  background-image: url(/static/background1.jpg);
+  background-repeat: repeat-y;
+  color:#FFF;
+}
+
+body *{
+  font-family: Ubuntu;
+}
+
+h1, h2, h3, h4, h5{
+  font-weight: normal;
+  margin: 0;
+}
+
+a, a:hover, a:visited{
+  color: #FFF;
+  text-decoration: none;
+}
+.wrapper{
+  max-width: 1200px;
+  max-height: 100%;
+  margin: 0 auto;
+}
+
+div.wrapper > h1{
+  text-align: center;
+  margin: 100px auto;
+  font-size: 2.4em
+}
+
+header{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px 0;
+}
+
+nav{
+  justify-self: end;
+}
+
+nav li{
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+nav button{
+  background: none;
+  color: #fff;
+  cursor: pointer;
+  border: 0;
+  font-size: 16px;
+}
+
+.articles{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.article{
+  padding: 10px;
+  border: 1px solid #9eb3ad;
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.article h2{
+  font-size: 1.2em;
+}
+
+.article .author{
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.486);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  color: #000000;
+  border-radius: 38px 0px 0px 0px;
+}
+
+.article-detail .article{
+  padding: 0;
+}
+
+.article-detail .article img{
+  display: block;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+.article-detail .article h2{
+  text-align: center;
+  margin: 20px auto;
+  font-size: 2em;
+}
+
+.article-detail .article p{
+  text-align: center;
+}
+
+#article-body{
+  font-size: 1.2em;
+  text-align: justify;
+  padding: 0 20%; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.site-form{
+  margin-top: 60px;
+  border: 1px solid#9eb3ad;
+  padding: 20px;
+}
+
+.site-form input, .site-form textarea{
+  display:block;
+  margin: 20px 0 0 0;
+  padding: 10px;
+}
+
+a.highlight{
+  border: 1px solid #9eb3ad;
+  padding: 10px;
+  border-radius: 4px;
+  color:#9eb3ad;
+}
+
+.helptext, .helptext ul{
+  margin: 0 auto 20px;
+  color: #bbb;
+  font-size: 0.9em;
+  display: block;
+}
+
+.errorlist li{
+  padding: 10px;
+  list-style-type: none;
+  border: 1px solid #e21818;
+  color:#e21818;
+  margin: 10px 0;
+}
+
+.errorlist{
+  padding: 0;
+}
+
+.site-form input[type="submit"]{
+  background: #b9bebd;
+  border: 0;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.articles .article p{
+  font-size: 1.2em
+}
+.articles .article{
+  text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+}
+.author{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: none;
+}
+.author-name{
+  font-size: 1.1em;
+}
+
+#user-loggedin{
+font-size: 1.1em;
+}
